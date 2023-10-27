@@ -1,0 +1,71 @@
+/*---- CSS Rest ----*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: monospace;
+}
+html,
+body{
+ width: 100%;
+ height: 100%;
+}
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+ 	height: 100%;
+ 	flex-direction: column;
+}
+.fun{
+	width: 300px;
+ 	height: 300px;
+ 	border: 8px solid black;
+ 	background-color: white;
+ 	border-radius: 50%;
+ 	transition: 1s all;
+	 display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	font-weight: 800;
+	color: black
+}
+.fun:hover{
+	border: 8px solid red;
+	width: 250px;
+	height: 250px;
+}
+.btn{
+	margin-top: 40px;
+	font-size: 30px;
+	font-weight: 700;
+	border: none;
+	outline: 0;
+	background-color: darkred;
+	color: white;
+	padding: 15px 12px;
+	border-radius: 12px;
+	cursor: pointer;
+	transition: 0.3s all;	
+}
+.btn:hover{
+	background-color: blueviolet;
+
+}
+.btn:active{
+	scale: 0.80;
+}
+.color{
+	background-color: yellow;
+	width: 330px;
+	border-top-left-radius: 300px;
+	border-bottom-left-radius: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	font-weight: 800;
+	color: black
+}
